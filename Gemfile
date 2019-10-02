@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '~> 5.1.6'
+gem 'rails-i18n' # 今回はこのgemを追加しています。
 gem 'bcrypt'
 gem 'faker'
 gem 'bootstrap-sass'
-gem 'will_paginate' # この行を追加してください。
-gem 'bootstrap-will_paginate' # この行を追加してください。
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'puma',         '~> 3.7'
 gem 'sass-rails',   '~> 5.0'
 gem 'uglifier',     '>= 1.3.0'
@@ -30,3 +31,4 @@ end
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 # Mac環境でもこのままでOKです
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
